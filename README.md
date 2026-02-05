@@ -1,9 +1,7 @@
 # OOP-HorseRace
-Joseph Kloepper
-2/5/2026
-OOP HorseRace for CSC121
+Joseph Kloepper - OOP HorseRace for CSC121
 
-```Mermaid
+```mermaid
 classDiagram
     class Horse {
         -int pos
@@ -20,6 +18,6 @@ classDiagram
         +void printRace()
     }
 ```
-```Algorithm 
+# Algorithm 
 Test number one :)
 ```
