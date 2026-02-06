@@ -9,5 +9,6 @@ public:
 	Race();
 	void run();
 	void printLane();
+	void printRace();
 };
 	

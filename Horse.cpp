@@ -1,6 +1,11 @@
 #include <iostream>
 #include "Horse.h"
 
+Horse::Horse(){
+	id = 0;
+	pos = 0;
+}
+
 Horse::Horse(int horseId){
 	id = horseId;
 	pos = 0;
@@ -11,7 +16,7 @@ int Horse::getPos() const{
 }
 
 void Horse::setPos(int p){
-	pos = 0;
+	pos = p;
 }
 
 int Horse::getId() const{
@@ -29,7 +34,11 @@ void Horse::advance(){
 	}
 }
 
-void Horse::printLane() const {
+bool Horse::isWinner() const{
+	return pos >= 15;
+}
+
+void Horse::printLane() const{
 	std::cout << id << ": ";
 	for (int i = 0; i < pos; i++){
 		std::cout << ".";

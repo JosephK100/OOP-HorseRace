@@ -4,6 +4,7 @@ private:
 	int pos;
 	int id;
 public:
+	Horse();
 	Horse(int id);
 	int getPos() const;
 	void setPos(int p);
