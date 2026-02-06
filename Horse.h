@@ -10,4 +10,6 @@ public:
 	int getId() const;
 	void setId() (int p);
 	void advance();
+	bool isWinner() const;
+	void printLane() const;
 }
