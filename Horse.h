@@ -1,5 +1,5 @@
 //Instructions for building a horse :)
-class Horse{
+class Horse {
 private:
 	int pos;
 	int id;
