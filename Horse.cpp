@@ -28,3 +28,11 @@ void Horse::advance(){
 		pos++;
 	}
 }
+
+void Horse::printLane() const {
+	std::cout << id << ": ";
+	for (int i = 0; i < pos; i++){
+		std::cout << ".";
+	}
+	std::cout << "H" << std::endl:
+}
