@@ -18,6 +18,7 @@ classDiagram
         +void printRace()
     }
 ```
+```
 # Algorithm 
 (Horse Class)
  void Horse::advance()
