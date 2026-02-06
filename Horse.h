@@ -8,7 +8,7 @@ public:
 	int getPos() const;
 	void setPos(int p);
 	int getId() const;
-	void setId() (int p);
+	void setId(int p);
 	void advance();
 	bool isWinner() const;
 	void printLane() const;

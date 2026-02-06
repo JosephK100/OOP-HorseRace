@@ -1,9 +1,9 @@
 #include <iostream>
-#include <Horse.h>
+#include "Horse.h"
 
 Horse::Horse(int horseId){
 	id = horseId;
-	pos = o;
+	pos = 0;
 }
 
 int Horse::getPos() const{
@@ -14,7 +14,7 @@ void Horse::setPos(int p){
 	pos = 0;
 }
 
-int Horse:getId() const{
+int Horse::getId() const{
 	return id;
 }
 
@@ -34,5 +34,5 @@ void Horse::printLane() const {
 	for (int i = 0; i < pos; i++){
 		std::cout << ".";
 	}
-	std::cout << "H" << std::endl:
+	std::cout << "H" << std::endl;
 }

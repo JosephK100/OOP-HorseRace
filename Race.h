@@ -1,4 +1,6 @@
 //Instructions for the race
+#include "Horse.h"
+
 class Race {
 private:
 	int winVal;
