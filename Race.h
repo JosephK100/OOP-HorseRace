@@ -2,10 +2,10 @@
 class Race {
 private:
 	int winVal;
-	horses[5];
+	Horse horses[5];
 public:
 	Race();
 	void run();
 	void printLane();
-}
+};
 	

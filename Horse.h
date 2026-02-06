@@ -12,4 +12,4 @@ public:
 	void advance();
 	bool isWinner() const;
 	void printLane() const;
-}
+};
