@@ -44,4 +44,5 @@ void Horse::printLane() const{
 		std::cout << ".";
 	}
 	std::cout << "H" << std::endl;
+	std::cout << "\n";
 }
